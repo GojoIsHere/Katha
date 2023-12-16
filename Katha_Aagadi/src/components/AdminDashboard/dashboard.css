@@ -1,0 +1,74 @@
+.sidebox {
+  height:45rem;
+  width: 15rem;
+  background-color: #8d61ff;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  /* margin-top: 3rem; */
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap:4rem;
+  width: 0rem;
+  position: relative;
+  top:8rem;
+  left: 6rem;
+}
+.menu a{
+    color: white;
+    font-size: 1.2rem;
+}
+ 
+  .container{
+   display: flex;
+   flex-direction: row;
+   gap: 5rem;
+   margin-left: 18rem;
+   margin-top: 2rem;
+}
+.view{
+   margin-top: -38rem;
+   height: 8rem;
+   width: 15rem;
+   background-color: palegoldenrod;
+   border-radius: 0.8rem;
+   
+}
+.view p{
+   color: #8D61FF;
+   font-size: 1.5rem;
+   margin-left: 1rem;
+   margin-top: 0.6rem;
+   width: 0rem;
+}
+.p1{
+    margin-top:2rem;
+    margin-left: 1rem;
+    width: 0rem;
+}
+.notification-box{
+    height:5rem;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    position: relative;
+    left: 18rem;
+    top: -25rem;
+}
+.notification{
+    display: flex;
+    flex-direction:column;
+    gap: 2rem;
+}
+.notification-heading{
+    font-size: 2rem;
+    position: relative;
+    top: -26rem;
+    left: 18rem;
+}
+.message{
+    position: relative;
+    top:1.5rem;
+    left: 2rem;
+}

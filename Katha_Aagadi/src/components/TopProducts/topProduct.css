@@ -1,0 +1,10 @@
+.brand-logo {
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+.top-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 4rem;
+  margin: 4rem 7rem 0rem 7rem;
+}

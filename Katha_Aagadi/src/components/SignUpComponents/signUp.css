@@ -1,0 +1,84 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+.container-left {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  padding: 2.5rem;
+  border-radius: 5px;
+}
+.container-right {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #8a8484;
+  padding: 2rem;
+  align-items: center;
+  border-radius: 5px;
+}
+.container-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 100%;
+}
+.form-title {
+  padding: 1rem;
+}
+.form-input input {
+  outline: none;
+  border: none;
+  font-size: 15px;
+  width: 95%;
+}
+.form-input {
+  max-width: 100%;
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 5px;
+  display: flex;
+}
+
+.form-input-error {
+  border: 1px solid red;
+  padding: 0.5rem;
+  border-radius: 5px;
+  display: flex;
+}
+
+.gender-dropdown select {
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.username {
+  border: 1px solid black;
+}
+
+.error-img-display {
+  display: block;
+}
+
+.error-img-none {
+  display: none;
+}
+
+.signup-btn {
+  border: none;
+  padding: 0.75rem;
+  background-color: #8d61ff;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.already-created {
+  padding: 1rem;
+}

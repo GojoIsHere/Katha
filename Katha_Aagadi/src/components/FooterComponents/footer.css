@@ -1,0 +1,32 @@
+.footer-hr {
+  width: 90%;
+  margin: auto;
+}
+
+.footer-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.footer-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.f-list {
+  padding-left: 3rem;
+}
+.f-list li {
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  max-width: 1440px;
+}
+.footer-wrapper {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

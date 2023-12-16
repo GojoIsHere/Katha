@@ -1,0 +1,42 @@
+.product-searchbar input {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+.product-searchbar {
+    position: relative;
+    left: 18rem;
+    top: -34rem;
+  display: flex;
+  border: 3px solid #8a8484;
+  border-radius: 5px;
+  width: 100%;
+  gap: 2rem;
+  height: 3rem;
+  
+}
+.product-searchbar input{
+    width: 100%;
+}
+.form-box{
+    height: 40rem;
+    width: 30rem;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    /* display: grid; */
+    border-radius: 10px;
+    gap:5rem;
+    justify-content: center;
+    position: relative;
+    top: -30rem;
+    left: 34rem;
+
+}
+.form-container{
+    margin-top:2rem;
+   
+}
+.form-input{
+    width: 20rem;
+}
