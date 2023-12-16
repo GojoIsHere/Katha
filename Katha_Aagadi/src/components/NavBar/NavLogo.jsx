@@ -1,12 +1,12 @@
-import logo from "../../assets/Icons/logo.png";
+// import logo from "../../assets/Icons/logo.png";
 import "./Navbar.css";
 
 export default function NavIcons() {
   return (
     <div className="nav-logo">
-      <img src={logo} alt="logo" />
+      {/* <img src={logo} alt="logo" /> */}
       <a href="#" className="logo">
-        Hamro <span className="logo2">Madira</span>
+        <span className="logo2">KATHA</span>
       </a>
     </div>
   );

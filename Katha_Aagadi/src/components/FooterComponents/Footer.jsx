@@ -1,4 +1,4 @@
-import briefcase from "../../assets/Icons/briefcase.png";
+// import briefcase from "../../assets/Icons/briefcase.png";
 import phone from "../../assets/Icons/phone.png";
 import mail from "../../assets/Icons/mail.png";
 import "./footer.css";
@@ -11,8 +11,9 @@ export default function Footer() {
         <div className="footer-wrapper">
           <div className="footer-component">
             <div className="footer-title">
-              <img src={briefcase} alt="" />
-              <h3>Navigation</h3>
+              {/* <img src={briefcase} alt="" /> */}
+              <div className="img"></div>
+              <h3 style={{ color: "#065719" }}>Navigation</h3>
             </div>
             <ol className="f-list">
               <li>
@@ -22,8 +23,9 @@ export default function Footer() {
           </div>
           <div className="footer-component">
             <div className="footer-title">
-              <img src={briefcase} alt="" />
-              <h3>Payments</h3>
+              {/* <img src={briefcase} alt="" /> */}
+              <div className="img"></div>
+              <h3 style={{ color: "#065719" }}>Payments</h3>
             </div>
             <ol className="f-list">
               <li>
@@ -36,8 +38,10 @@ export default function Footer() {
           </div>
           <div className="footer-component">
             <div className="footer-title">
-              <img src={briefcase} alt="" />
-              <h3>My Accounts</h3>
+              {/* <img src={briefcase} alt="" /> */}
+              <div className="img"></div>
+
+              <h3 style={{ color: "#065719" }}>My Accounts</h3>
             </div>
             <ol className="f-list">
               <li>
@@ -47,8 +51,9 @@ export default function Footer() {
           </div>
           <div className="footer-component">
             <div className="footer-title">
-              <img src={briefcase} alt="" />
-              <h3>Contacts</h3>
+              <div className="img"></div>
+              {/* <img src={briefcase} alt="" /> */}
+              <h3 style={{ color: "#065719" }}>Contacts</h3>
             </div>
             <ol className="f-list">
               <li>

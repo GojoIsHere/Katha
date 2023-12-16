@@ -1,7 +1,7 @@
 import NavBar from "../components/NavBar/NavBar";
 import Footer from "../components/FooterComponents/Footer";
 
-function LandingPage() {
+function ChatPage() {
   return (
     <>
       <NavBar />
@@ -15,4 +15,4 @@ function LandingPage() {
   );
 }
 
-export default LandingPage;
+export default ChatPage;

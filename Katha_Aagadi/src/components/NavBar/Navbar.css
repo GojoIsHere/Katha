@@ -9,7 +9,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  margin-right: 5%;
+  margin-left: 3%;
 }
 
 .logo {
@@ -19,7 +20,7 @@
 }
 
 .logo2 {
-  color: #8d61ff;
+  color: #065719;
 }
 
 .nav-logo {
@@ -46,6 +47,12 @@ ul {
   justify-content: space-between;
   gap: 10px;
 }
+#login {
+  border-radius: 50%;
+  height: 50px;
+  width: 80px;
+  justify-content: center;
+}
 
 .nav-searchbar input {
   border: none;
@@ -58,6 +65,7 @@ ul {
   border-radius: 5px;
   padding: 5px;
   gap: 5px;
+  width: 40%;
 }
 
 .hamburger-menu {
@@ -79,6 +87,7 @@ ul {
   }
 
   .nav-menu {
+    margin-right: 5%;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -90,6 +99,7 @@ ul {
     bottom: 0;
     width: 70%;
     transition: transform 0.3s ease-in;
+    text-decoration-color: #065719;
   }
   .hamburger-menu {
     display: block;
