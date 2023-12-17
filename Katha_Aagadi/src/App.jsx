@@ -2,6 +2,7 @@
 import SignUpPage from "./pages/SignUpPage";
 import LoginPage from "./pages/LoginPage";
 import LandingPage from "./pages/LandingPage";
+import ChatPage from "./pages/ChatPage";
 
 import { Routes, Route, Navigate } from "react-router-dom";
 
@@ -10,7 +11,7 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-
+        <Route path="/chat" element={<ChatPage />} />
         {/* <Route
           path="/signup"
           element={

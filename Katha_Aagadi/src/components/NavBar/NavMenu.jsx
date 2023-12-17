@@ -38,7 +38,7 @@ export default function NavMenu() {
           </Link>
         </li>
         <li>
-          <Link to="/">
+          <Link to="/chat">
             <div className="nav-link">Chat</div>
           </Link>
         </li>
