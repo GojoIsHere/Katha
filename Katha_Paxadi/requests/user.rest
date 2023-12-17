@@ -1,0 +1,85 @@
+POST http://localhost:3001/api/user/signup
+content-type: application/json
+
+{
+    "fullname":"Prabesh Magar",
+    "username":"admin",
+    "password":"admin",
+    "email":"admin@gmail.com",
+    "phone":"977-1234567890",
+    "address":[],
+    "userType":"user",
+    "isDisabled":false,
+    "cart":[]
+}
+###
+GET http://localhost:3001/api/cart/65721434e71c03fd46ebc36b
+
+###
+DELETE http://localhost:3001/api/cart/remove/65721434e71c03fd46ebc36b
+content-type: application/json
+
+
+{"skus":"Absolut_Peppar_1L"}
+###
+PUT http://localhost:3001/api/cart/edit/
+content-type: application/json
+
+
+{"skus":"Gorkha_Strong_650ML_x_12_Bottles","name":"Absolut Peppar 1L","price":"1150","quantity":190}
+
+###
+GET http://localhost:3001/api/user
+###
+GET http://localhost:3001/api/products/category
+###
+GET http://localhost:3001/api/products/recommended/Nepal_Ice_Strong_500ML_x_12_Cans
+###
+GET http://localhost:3001/api/products
+###
+GET http://localhost:3001/api/products/SOFT-DRINK
+
+###
+GET http://localhost:3001/api/products/items/Absolut_Citron_1L
+
+###
+PUT http://localhost:3001/api/products/items/Absolut_Citron_1L
+content-type: application/json
+
+{
+ "img": "",
+  "price": 4600,
+  "quantity": 171,
+  "feature": "Using lemon and just a hint of lime, Absolut have found the perfect balance of richness from the grain and water, tartness from the citrus fruits and just a hint of bitterness from the lemon peel.",
+  "alcohol": "40"
+}
+
+
+###
+GET http://localhost:3001/api/order
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NWRkNTk4NWEyNTRkOWQxNDA2NjdhNyIsInVzZXJuYW1lIjoiYWxleDEyMyIsInVzZXJUeXBlIjoidXNlciIsImlzRGlzYWJsZWQiOmZhbHNlLCJpYXQiOjE3MDA5MzUzODYsImV4cCI6MTcwMDkzODA4Nn0.ql8YHAA2WEuMEQBxSXwci5H-LmxnVEKnJshGu_1VUvM
+###
+POST http://localhost:3001/api/order
+content-type: application/json
+
+{
+    "userId":"654f93c7fc6756ed7c122d68",
+    "paymentStatus":"pending",
+    "status":"placed",
+    "amount":1597,
+    "items":[{"sku":"Tuborg 500ml Beer CAN",""quantity"":1,"price":1597}],
+    "shippingAddress":{"district":"Lalitpur","city":"Bakha 10","landmark":"labim mall south"}
+}
+
+
+###
+POST http://localhost:3001/api/login
+content-type: application/json
+
+{
+    "username":"alex123",
+    "password":"alex123",
+    "isEmail":false
+}
+
+

@@ -1,0 +1,504 @@
+[
+  {
+    "productName": "Fanta",
+    "categoryId": "SOFT-DRINK",
+    "productBrand": "Coca-Cola",
+    "skus": [
+      {
+        "img": "images/fanta.png",
+        "sku": "Fanta_2.25L",
+        "name": "Fanta 2.25L",
+        "price": 260,
+        "quantity": 567,
+        "feature": "Coca-Cola is the most popular and biggest-selling soft drink in history, as well as one of the most recognizable brands in the world.",
+        "alcohol": "0"
+      },
+      {
+        "img": "images/fanta.png",
+        "sku": "Fanta_1.5L",
+        "name": "Fanta 1.5L",
+        "price": 210,
+        "quantity": 567,
+        "feature": "Coca-Cola is the most popular and biggest-selling soft drink in history, as well as one of the most recognizable brands in the world.",
+        "alcohol": "0"
+      },
+      {
+        "img": "images/fanta.png",
+        "sku": "Fanta_1L",
+        "name": "Fanta 1L",
+        "price": 130,
+        "quantity": 567,
+        "feature": "Coca-Cola is the most popular and biggest-selling soft drink in history, as well as one of the most recognizable brands in the world.",
+        "alcohol": "0"
+      }
+    ],
+    "manufacture": "Coca-Cola Company Pvt. Ltd."
+  },
+  {
+    "productName": "Absolut Juice Vodka",
+    "categoryId": "VODKA",
+    "productBrand": "Absolut",
+    "skus": [
+      {
+        "img": "images/absolut juice.png",
+        "sku": "Absolut_Juice_Apple_Edition_500ML",
+        "name": "Absolut Juice Apple Edition 500ML",
+        "price": 4050,
+        "quantity": 567,
+        "feature": "MADE WITH ABSOLUT VODKA, REAL APPLE JUICE AND NATURAL FLAVORS. Our classic Absolut Vodka with the finest apple juice brings you that fresh taste of ripe and crunchy apples.",
+        "alcohol": "35"
+      },
+      {
+        "img": "images/absolut ciltron.png",
+        "sku": "Absolut_Citron_1L",
+        "name": "Absolut Citron 1L",
+        "price": 4600,
+        "quantity": 171,
+        "feature": "Using lemon and just a hint of lime, Absolut have found the perfect balance of richness from the grain and water, tartness from the citrus fruits and just a hint of bitterness from the lemon peel.",
+        "alcohol": "40"
+      },
+      {
+        "img": "images/absolut peppar.png",
+        "sku": "Absolut_Peppar_1L",
+        "name": "Absolut Peppar 1L",
+        "price": 6800,
+        "quantity": 567,
+        "feature": "The main ingredients in Absolut Peppar are Absolut Vodka and pepper flavor. Absolut Peppar is hot and spicy and has a distinct character of green bell, chili and jalapeño pepper.",
+        "alcohol": "40"
+      },
+      {
+        "img": "images/absolut elyx.png",
+        "sku": "Absolut_Elyx_1L",
+        "name": "Absolut Elyx 1L",
+        "price": 9930,
+        "quantity": 567,
+        "feature": "Absolut Elyx is manually distilled in a 1921 copper rectification still known as Column 51, made entirely of copper. It is operated by a selected few who inherited their knowledge and expertise from past generations of spirit and vodka makers.",
+        "alcohol": "42.3"
+      },
+      {
+        "img": "images/absolut grapefruit.png",
+        "sku": "Absolut_Grapefruit_1L",
+        "name": "Absolut Grape 1L",
+        "price": 9930,
+        "quantity": 567,
+        "feature": "Absolut Grapefruit has a well-balanced sweetness offering a fresh and fruity taste from natural grapefruit flavour and no added sugar.",
+        "alcohol": "40"
+      },
+      {
+        "img": "images/absolut raspberry.png",
+        "sku": "Absolut_Juice_Strawberry_Edition_500ML",
+        "name": "Absolut Juice Strawberry Edition 500ML",
+        "price": 4050,
+        "quantity": 567,
+        "feature": "MADE WITH ABSOLUT VODKA, REAL STRAWBERRY JUICE AND NATURAL FLAVORS. Inspired by the long warm days of the Swedish summer, Absolut Juice Strawberry Edition is made with Absolut Vodka (naturally), delicious fruit juice from sun-ripened strawberries and a little taste of vanilla to cool you down. Just add soda and ice for a true fruit sensation.",
+        "alcohol": "35"
+      }
+    ],
+    "manufacture": "Absolut"
+  },
+  {
+    "productName": "Nepal Ice",
+    "categoryId": "BEER",
+    "productBrand": "Nepal Ice",
+    "skus": [
+      {
+        "img": "images/nepalice-330.png",
+        "sku": "Nepal_Ice_Xtra_Strong_Bottle_330ML",
+        "name": "Nepal Ice Xtra Strong 330ML",
+        "price": 160,
+        "quantity": 567,
+        "feature": "The excellent taste of Nepal comes from the perfect blend of the finest malts and grains, best hops and pure yeast.",
+        "alcohol": "8"
+      },
+      {
+        "img": "images/nepalice-330.png",
+        "sku": "Nepal_Ice_Strong_Bottle_650ML",
+        "name": "Nepal Ice Strong Bottle 650ML",
+        "price": 310,
+        "quantity": 567,
+        "feature": "The excellent taste of Nepal Ice comes from the perfect blend of the finest malts and grains, best hops and pure yeast.",
+        "alcohol": "7"
+      },
+      {
+        "img": "images/nepalice-12.png",
+        "sku": "Nepal_Ice_Strong_650ML_x_12_Bottles",
+        "name": "Nepal Ice Strong 650MLx12 Bottles",
+        "price": 3610,
+        "quantity": 567,
+        "feature": "The excellent taste of Nepal Ice comes from the perfect blend of the finest malts and grains, best hops and pure yeast.",
+        "alcohol": "7"
+      },
+      {
+        "img": "images/nepalice-can-12.png",
+        "sku": "Nepal_Ice_Strong_500ML_x_12_Cans",
+        "name": "Nepal Ice Strong 500MLx12 Cans",
+        "price": 3025,
+        "quantity": 567,
+        "feature": "The excellent taste of Nepal Ice comes from the perfect blend of the finest malts and grains, best hops and pure yeast.",
+        "alcohol": "7"
+      },
+      {
+        "img": "images/nepalice-can.png",
+        "sku": "Nepal_Ice_Strong_Can_500ML",
+        "name": "Nepal Ice Strong Can 500ML",
+        "price": 260,
+        "quantity": 567,
+        "feature": "The excellent taste of Nepal Ice comes from the perfect blend of the finest malts and grains, best hops and pure yeast.",
+        "alcohol": "7"
+      }
+    ],
+    "manufacture": "Chaudhary Group"
+  },
+  {
+    "productName": "Gorkha Beer",
+    "categoryId": "BEER",
+    "productBrand": "Gorkha",
+    "skus": [
+      {
+        "img": "images/gorkha strong330.png",
+        "sku": "Gorkha_Extra_Strong_Bottle_330ML",
+        "name": "Gorkha Extra Strong Bottle 330ML",
+        "price": 175,
+        "quantity": 567,
+        "feature": "Gorkha extra strong with 8% alc/vol",
+        "alcohol": "8"
+      },
+      {
+        "img": "images/gorkha strong330.png",
+        "sku": "Gorkha_Strong_Bottle_650ML",
+        "name": "Gorkha Strong Bottle 650ML",
+        "price": 325,
+        "quantity": 567,
+        "feature": "Gorkha Strong was launched to the market in 2013 to cater to those segments that prefer stronger beers. It is a malt liquor beer in the best quality.",
+        "alcohol": "6"
+      },
+      {
+        "img": "images/gorkha-12.png",
+        "sku": "Gorkha_Strong_650ML_x_12_Bottles",
+        "name": "Gorkha Strong 650MLx12 Bottles",
+        "price": 3785,
+        "quantity": 567,
+        "feature": "Gorkha Strong was launched to the market in 2013 to cater to those segments that prefer stronger beers. It is a malt liquor beer in the best quality.",
+        "alcohol": "6"
+      },
+      {
+        "img": "images/gorkha-can-12.png",
+        "sku": "Gorkha_Strong_500ML_x_12_Cans",
+        "name": "Gorkha Strong 500MLx12 Cans",
+        "price": 3085,
+        "quantity": 567,
+        "feature": "Gorkha Strong was launched to the market in 2013 to cater to those segments that prefer stronger beers. It is a malt liquor beer in the best quality.",
+        "alcohol": "6"
+      },
+      {
+        "img": "images/gorkha-can.png",
+        "sku": "Gorkha_Strong_Can_500ML",
+        "name": "Gorkha Strong Can 500ML",
+        "price": 265,
+        "quantity": 567,
+        "feature": "Gorkha Strong was launched to the market in 2013 to cater to those segments that prefer stronger beers. It is a malt liquor beer in the best quality.",
+        "alcohol": "6"
+      }
+    ],
+    "manufacture": "Gorkha Brewery Pvt. Ltd."
+  },
+  {
+    "productName": "Khukri Rum",
+    "categoryId": "RUM",
+    "productBrand": "Khukri",
+    "skus": [
+      {
+        "img": "images/khukri spiced.png",
+        "sku": "Khukri_Spiced_Rum_750ML",
+        "name": "Khukri Spiced Rum 750ML",
+        "price": 2400,
+        "quantity": 567,
+        "feature": "Flavours that are extracted from authentic Nepalese spices are masterfully blended with distills of rich molasses and fresh spring water from the Himalayas. It is then aged in homes of exclusive wooden casks at high altitudes resulting in a tasteful concoction of assorted spices enriched with dry fruits that ends with a sweet, smooth and long finish.",
+        "alcohol": "42.8"
+      },
+      {
+        "img": "images/khukri spiced.png",
+        "sku": "Khukri_Spiced_Rum_250ML",
+        "name": "Khukri Spiced Rum 250ML",
+        "price": 575,
+        "quantity": 567,
+        "feature": "Flavours that are extracted from authentic Nepalese spices are masterfully blended with distills of rich molasses and fresh spring water from the Himalayas. It is then aged in homes of exclusive wooden casks at high altitudes resulting in a tasteful concoction of assorted spices enriched with dry fruits that ends with a sweet, smooth and long finish.",
+        "alcohol": "42.8"
+      },
+      {
+        "img": "images/khukri xxx.png",
+        "sku": "Khukri_XXX_Rum_750ML",
+        "name": "Khukri XXX Rum 750ML",
+        "price": 2010,
+        "quantity": 567,
+        "feature": "Born in the Himalayas, Khukri XXX Rum is an exceptional dark blend, distilled with rich molasses, Himalayan spring water, and natural artisanal flavours. Aged among snowy peaks in casks born from the region-exclusive Shorea Robusta tree, every sip of Khukri XXX Rum delivers a complex taste with rich natural flavours, earthy undertones and a smooth, long caramel finish.",
+        "alcohol": "42.8"
+      },
+      {
+        "img": "images/khukri white.png",
+        "sku": "Khukri_White_Rum_750ML",
+        "name": "Khukri White Rum 750ML",
+        "price": 2400,
+        "quantity": 567,
+        "feature": "Khukri White is a complex yet light white rum.Presenting delicate notes of tropical fruits with rich nutty undertones and a creamy character, Khukri White is charcoal filtered for an extra smooth taste.",
+        "alcohol": "40"
+      },
+      {
+        "img": "images/khukri coronation.png",
+        "sku": "Khukri_Coronation_Rum_375ML",
+        "name": "Khukri Coronation Rum 375ML",
+        "price": 2700,
+        "quantity": 567,
+        "feature": "This selected reserve was created in honour and respect on the prestigious occasion of Late King Birendra Bir Bikram Shah Dev's Coronation ceremony in 1974 and names it as Coronation Khukri. It is packed in a unique bottle shaped like a Khukri, which is a national symbol of pride, bravery and elegance.",
+        "alcohol": "42.8"
+      }
+    ],
+    "manufacture": "The Nepal Distillaries Pvt. Ltd."
+  },
+  {
+    "productName": "Gurkhas and Guns 750ML",
+    "categoryId": "WHISKY",
+    "productBrand": "Gurkhas & Guns",
+    "skus": [
+      {
+        "img": "images/g&g.png",
+        "sku": "Gurkhas_and_Guns_750ML",
+        "name": "Gurkhas and Guns 750ML",
+        "price": 3080,
+        "quantity": 567,
+        "feature": "Our first expression pays homage to the legendary Gurkhas, renowned worldwide for their bravery and valour. In honour of the Gurkhas’ fearless and unrelenting spirit, our Malt Master has crafted an immaculate blend from the finest whiskey reserves in Scotland.A blend of famous Highland Malts, our whiskey is patiently matured in American Oak Bourbon Casks.",
+        "alcohol": "42.8"
+      }
+    ],
+    "manufacture": "The Nepal Distillaries Pvt. Ltd."
+  },
+  {
+    "productName": "Jack Daniel's",
+    "categoryId": "WHISKY",
+    "productBrand": "Jack Daniel's",
+    "skus": [
+      {
+        "img": "images/jack-daniels.png",
+        "sku": "Jack_Daniel's_375ML",
+        "name": "Jack_Daniel's_375ML",
+        "price": 3185,
+        "quantity": 567,
+        "feature": "Jack Daniel's is one of the very few Tennessee Whiskies that is charcoal mellowed. Jack Daniel's has a smooth aroma and flavour of vanilla, toasted oak and caramel translates well to the palate. A true American icon that has become everyone's favourite.",
+        "alcohol": "40"
+      },
+      {
+        "img": "images/jack-daniels.png",
+        "sku": "Jack_Daniel's_1L",
+        "name": "Jack Daniel's 1L",
+        "price": 8160,
+        "quantity": 567,
+        "feature": "Jack Daniel's is one of the very few Tennessee Whiskies that is charcoal mellowed. Jack Daniel's has a smooth aroma and flavour of vanilla, toasted oak and caramel translates well to the palate. A true American icon that has become everyone's favourite.",
+        "alcohol": "40"
+      },
+      {
+        "img": "images/jack-daniels.png",
+        "sku": "Jack_Daniel's_750ML",
+        "name": "Jack Daniel's 750ML",
+        "price": 6245,
+        "quantity": 567,
+        "feature": "Jack Daniel's is one of the very few Tennessee Whiskies that is charcoal mellowed. Jack Daniel's has a smooth aroma and flavour of vanilla, toasted oak and caramel translates well to the palate. A true American icon that has become everyone's favourite.",
+        "alcohol": "40"
+      },
+      {
+        "img": "images/jack-daniels.png",
+        "sku": "Jack_Daniel's_3L",
+        "name": "Jack Daniel's 3L",
+        "price": 24850,
+        "quantity": 567,
+        "feature": "Jack Daniel's is one of the very few Tennessee Whiskies that is charcoal mellowed. Jack Daniel's has a smooth aroma and flavour of vanilla, toasted oak and caramel translates well to the palate. A true American icon that has become everyone's favourite.",
+        "alcohol": "40"
+      },
+      {
+        "img": "images/jack-daniels.png",
+        "sku": "Jack_Daniel's_500ML",
+        "name": "Jack Daniel's 500ML",
+        "price": 4180,
+        "quantity": 567,
+        "feature": "Jack Daniel's is one of the very few Tennessee Whiskies that is charcoal mellowed. Jack Daniel's has a smooth aroma and flavour of vanilla, toasted oak and caramel translates well to the palate. A true American icon that has become everyone's favourite.",
+        "alcohol": "40"
+      }
+    ],
+    "manufacture": "Brown Forman USA"
+  },
+  {
+    "productName": "Big Master",
+    "categoryId": "WINE",
+    "productBrand": "Big Master",
+    "skus": [
+      {
+        "img": "images/big-master-wine.png",
+        "sku": "Big_Master_Sweet_Red_750ML",
+        "name": "Big Master Sweet Red 750ML",
+        "price": 870,
+        "quantity": 567,
+        "feature": "Wine Style: Original fruits (grape) natural flavour with sweet red wine finish.Serving Temperature: 14-18 °C",
+        "alcohol": "9.5"
+      },
+      {
+        "img": "images/big-master-wine.png",
+        "sku": "Big_Master_Sweet_Red_4L_Box",
+        "name": "Big Master Sweet Red 4L Box",
+        "price": 3955,
+        "quantity": 567,
+        "feature": "Wine Style: Original fruits (grape) natural flavour with sweet red wine finish.Serving Temperature: 14-18 °C",
+        "alcohol": "9.5"
+      },
+      {
+        "img": "images/big-master-wine-apple.png",
+        "sku": "Big_Master_Apple_Sweet_White_750ML",
+        "name": "Big Master Apple Sweet White 750ML",
+        "price": 870,
+        "quantity": 567,
+        "feature": "Wine Style: Original fruits (grape) natural flavour with sweet red wine finish.Serving Temperature: 14-18 °C",
+        "alcohol": "9.5"
+      },
+      {
+        "img": "images/big-master-wine-apple.png",
+        "sku": "Big_Master_Apple_Sweet_White_4L_Box",
+        "name": "Big Master Apple Sweet White 4L Box",
+        "price": 3955,
+        "quantity": 567,
+        "feature": "Wine Style: Original fruits (grape) natural flavour with sweet red wine finish.Serving Temperature: 14-18 °C",
+        "alcohol": "9.5"
+      }
+    ],
+    "manufacture": "Royal Kathmandu Himalaya Beverages Pvt. Ltd."
+  },
+  {
+    "productName": "Moet & Chandon Brut Imperial Champagne",
+    "categoryId": "WINE",
+    "productBrand": "Big Master",
+    "skus": [
+      {
+        "img": "images/moet-chandon-wine.png",
+        "sku": "Moet_Chandon_Brut_Imperial_Champagne_375ML",
+        "name": "Moet Chandon Brut Imperial Champagne 375ML",
+        "price": 3825,
+        "quantity": 567,
+        "feature": "Moët & Chandon Brut Impérial, with its perfect balance of Pinot Noir, Chardonnay and Pinot Meunier has become one of the world's most-loved Champagnes. 'Moet' is characterised by bright fruitiness and elegant maturity. The palate reveals subtle pear, citrus and brioche notes.",
+        "alcohol": "12"
+      },
+      {
+        "img": "images/moet-chandon-wine.png",
+        "sku": "Moet_Chandon_Brut_Imperial_Champagne_750ML",
+        "name": "Moet Chandon Brut Imperial Champagne 750ML",
+        "price": 12500,
+        "quantity": 567,
+        "feature": "Moët & Chandon Brut Impérial, with its perfect balance of Pinot Noir, Chardonnay and Pinot Meunier has become one of the world's most-loved Champagnes. 'Moet' is characterised by bright fruitiness and elegant maturity. The palate reveals subtle pear, citrus and brioche notes.",
+        "alcohol": "12"
+      },
+      {
+        "img": "images/moet-chandon-wine-2.png",
+        "sku": "Moet_Chandon_Rose_Imperial_Champagne_750ML",
+        "name": "Moet Chandon Rose Imperial Champagne 750ML",
+        "price": 14000,
+        "quantity": 567,
+        "feature": "Moët Rosé Impérial is a glamorous expression marked by intense redfruits--strawberry, raspberry, redcurrant--and a bewitching nose combining those scents with rose and pepper.",
+        "alcohol": "12"
+      }
+    ],
+    "manufacture": "LVMH Moët Hennessy Louis Vuitton"
+  },
+  {
+    "productName": "Coke",
+    "categoryId": "SOFT-DRINK",
+    "productBrand": "Coca-Cola",
+    "skus": [
+      {
+        "img": "images/cocacola.png",
+        "sku": "Coke_2.25L",
+        "name": "Coke 2.25L",
+        "price": 260,
+        "quantity": 567,
+        "feature": "Coca-Cola is the most popular and biggest-selling soft drink in history, as well as one of the most recognizable brands in the world.",
+        "alcohol": "0"
+      },
+      {
+        "img": "images/cocacola.png",
+        "sku": "Coke_1.5L",
+        "name": "Coke 1.5L",
+        "price": 210,
+        "quantity": 567,
+        "feature": "Coca-Cola is the most popular and biggest-selling soft drink in history, as well as one of the most recognizable brands in the world.",
+        "alcohol": "0"
+      },
+      {
+        "img": "images/cocacola.png",
+        "sku": "Coke_1L",
+        "name": "Coke 1L",
+        "price": 130,
+        "quantity": 567,
+        "feature": "Coca-Cola is the most popular and biggest-selling soft drink in history, as well as one of the most recognizable brands in the world.",
+        "alcohol": "0"
+      },
+      {
+        "img": "images/cocacola.png",
+        "sku": "Coke_2.25x6",
+        "name": "Coke 2.25x6",
+        "price": 2170,
+        "quantity": 567,
+        "feature": "Coca-Cola is the most popular and biggest-selling soft drink in history, as well as one of the most recognizable brands in the world.",
+        "alcohol": "0"
+      },
+      {
+        "img": "images/cocacola.png",
+        "sku": "Coke_1.5Lx6",
+        "name": "Coke 1.5Lx6",
+        "price": 1680,
+        "quantity": 567,
+        "feature": "Coca-Cola is the most popular and biggest-selling soft drink in history, as well as one of the most recognizable brands in the world.",
+        "alcohol": "0"
+      },
+      {
+        "img": "images/cocacola.png",
+        "sku": "Coke_1Lx6",
+        "name": "Coke 1Lx6",
+        "price": 1080,
+        "quantity": 567,
+        "feature": "Coca-Cola is the most popular and biggest-selling soft drink in history, as well as one of the most recognizable brands in the world.",
+        "alcohol": "0"
+      }
+    ],
+    "manufacture": "Coca-Cola Company Pvt. Ltd."
+  },
+  {
+    "productName": "Frooti Mango Drink",
+    "categoryId": "SOFT-DRINK",
+    "productBrand": "Parle-Agro",
+    "skus": [
+      {
+        "img": "images/frooti 250ml.png",
+        "sku": "Frooti_Mango_Drink_250ML",
+        "name": "Frooti Mango Drink 250ML",
+        "price": 50,
+        "quantity": 567,
+        "feature": "Made with real mango pulp from the freshest of mangoes, Frooti satisfies the craving for this popular seasonal fruit throughout the year.",
+        "alcohol": "0"
+      },
+      {
+        "img": "images/frooti 250ml.png",
+        "sku": "Frooti_Mango_Drink_500ML",
+        "name": "Frooti Mango Drink 500ML",
+        "price": 90,
+        "quantity": 567,
+        "feature": "Made with real mango pulp from the freshest of mangoes, Frooti satisfies the craving for this popular seasonal fruit throughout the year.",
+        "alcohol": "0"
+      },
+      {
+        "img": "images/frooti 200ml.png",
+        "sku": "Frooti_Mango_Drink_200ML",
+        "name": "Frooti Mango Drink 200ML",
+        "price": 30,
+        "quantity": 567,
+        "feature": "Made with real mango pulp from the freshest of mangoes, Frooti satisfies the craving for this popular seasonal fruit throughout the year.",
+        "alcohol": "0"
+      }
+    ],
+    "manufacture": "Parley Agro Pvt. Ltd."
+  }
+]
