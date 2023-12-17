@@ -1,14 +1,117 @@
-import SideBar from "./SideBar";
-import Main from "./Main";
+// import SideBar from "./SideBar";
+// import Main from "./Main";
 import "./Chat.css";
+import { useState, useEffect } from "react";
 const Chat = () => {
+  const [value, setValue] = useState(null);
+  const [message, setMessage] = useState(null);
+  const [previousChat, setPreviousChat] = useState([]);
+  const [currentTitle, setCurrentTitle] = useState(null);
+
+  const createNewChat = () => {
+    setMessage(null);
+    setValue("");
+    setCurrentTitle(null);
+  };
+
+  const handleClick = (uniqueTitle) => {
+    setCurrentTitle(uniqueTitle);
+    setMessage(null);
+    setValue("");
+  };
+
+  const getMessages = async () => {
+    const options = {
+      method: "POST",
+      body: JSON.stringify({
+        message: value,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    };
+    try {
+      const response = await fetch(
+        "http://localhost:3001/completions",
+        options
+      );
+      const data = await response.json();
+      // console.log(data);
+      setMessage(data.choices[0].message);
+      console.log("this is data: ", message);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  console.log(message);
+  useEffect(() => {
+    console.log(currentTitle, value, message);
+    if (!currentTitle && value && message) {
+      setCurrentTitle(value);
+    }
+    if (currentTitle && value && message) {
+      setPreviousChat((prevChat) => [
+        ...prevChat,
+        {
+          title: currentTitle,
+          role: "user",
+          content: value,
+        },
+        {
+          title: currentTitle,
+          role: message.role,
+          content: message.content,
+        },
+      ]);
+    }
+  }, [message, currentTitle]);
+
+  // console.log("this is previous chats : ", previousChat);
+
+  const currentChat = previousChat.filter(
+    (prevChat) => prevChat.title === currentTitle
+  );
+  console.log("this is current chat : ", currentChat);
+
+  const uniqueTitles = Array.from(
+    new Set(previousChat.map((prevChat) => prevChat.title))
+  );
+  // console.log("this is titles", uniqueTitles);
+
   return (
     <div className="app">
       <section className="sidebar">
-        <SideBar />
+        <button onClick={createNewChat}> New Chat</button>
+        <ul className="history">
+          {uniqueTitles?.map((uniqueTitle, index) => (
+            <li key={index} onClick={() => handleClick(uniqueTitle)}>
+              {uniqueTitle}
+            </li>
+          ))}
+        </ul>
       </section>
       <section className="main">
-        <Main />
+        <ul className="feed">
+          {currentChat?.map((chatMessage, index) => {
+            <li key={index}>
+              <p className="role">{chatMessage.role}</p>
+              <p>{chatMessage.content}</p>
+            </li>;
+          })}
+        </ul>
+        <div className="bottom_section">
+          <div className="input_container">
+            <input
+              type="text"
+              value={value}
+              onChange={(e) => setValue(e.target.value)}
+            />
+            <div className="submit" onClick={getMessages}>
+              submit
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );

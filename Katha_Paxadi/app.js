@@ -10,10 +10,13 @@ const cors = require("cors");
 // const cartController = require("./controllers/cart");
 // const orderController = require("./controllers/order");
 const { requestLogger, unknownEndpoint } = require("./utils/middleware");
-// const {API_KEY} = require("./utils/config");
-const API_KEY = "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";
 app.use(cors());
 app.use(express.json());
+
+// const {API_KEY} = require("./utils/config");
+const API_KEY = "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";
+
+
 
 // mongoose.set("strictQuery", false);
 // mongoose
@@ -59,7 +62,7 @@ app.get("/", (req, res) => {
  
 });
 
-app.post('/completions',async(req, res)=>{
+app.post("/completions",async(req, res)=>{
   const options = {
     method :"POST",
     headers:{
@@ -68,12 +71,12 @@ app.post('/completions',async(req, res)=>{
     },
     body: JSON.stringify({
       model:"gpt-3.5-turbo",
-      messages:[{role:"user", content:"how are you?"}],
+      messages:[{role:"user", content: req.body.message}],
       max_tokens:100,
     })
   };
   try {
-    const response = await fetch('https://api.openai.com/v1/chat/completions', options);
+    const response = await fetch("https://api.openai.com/v1/chat/completions", options);
     const data = await response.json();
     res.send(data);
   } catch (error) {
