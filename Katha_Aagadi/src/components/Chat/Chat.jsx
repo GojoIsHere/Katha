@@ -3,7 +3,7 @@
 import "./Chat.css";
 import { useState, useEffect } from "react";
 const Chat = () => {
-  const [value, setValue] = useState(null);
+  const [value, setValue] = useState("");
   const [message, setMessage] = useState(null);
   const [previousChat, setPreviousChat] = useState([]);
   const [currentTitle, setCurrentTitle] = useState(null);
@@ -36,7 +36,7 @@ const Chat = () => {
         options
       );
       const data = await response.json();
-      // console.log(data);
+      console.log("this is data", data);
       setMessage(data.choices[0].message);
       console.log("this is data: ", message);
     } catch (error) {
@@ -93,12 +93,15 @@ const Chat = () => {
       </section>
       <section className="main">
         <ul className="feed">
-          {currentChat?.map((chatMessage, index) => {
-            <li key={index}>
-              <p className="role">{chatMessage.role}</p>
-              <p>{chatMessage.content}</p>
-            </li>;
-          })}
+          {currentChat.length > 0
+            ? currentChat.map((chatMessage, index) => (
+                <li key={index}>
+                  <p className="role">{chatMessage.role}</p>
+                  <p>{chatMessage.content}</p>
+                  {console.log("this is field cChat: ", currentChat[0].role)}
+                </li>
+              ))
+            : null}
         </ul>
         <div className="bottom_section">
           <div className="input_container">

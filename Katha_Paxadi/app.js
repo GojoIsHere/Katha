@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 // const {API_KEY} = require("./utils/config");
-const API_KEY = "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";
+const API_KEY = "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";
 
 
 
